@@ -1,44 +1,10 @@
-﻿已經開始建置於 2016/12/5 下午 05:40:59。
+﻿已經開始建置於 2016/12/5 下午 08:30:06。
      1>節點 2 (Build 目標) 上的專案 "F:\food_setting\colorImageSegmentation\colorImageSegmentation\colorImageSegmentation.vcxproj"。
      1>ClCompile:
          F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\boost\boost_1_62_0" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt main.cpp
          main.cpp
      1>c:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
      1>C:\opencv\build\include\opencv2/legacy/compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
-     1>main.cpp(49): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(50): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(52): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(53): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(55): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(56): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(58): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(59): warning C4244: '=' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>C:\Program Files\boost\boost_1_62_0\boost/property_map/property_map.hpp(309): warning C4267: '=' : 將 'size_t' 轉換為 'unsigned int'，資料可能遺失
-                 C:\Program Files\boost\boost_1_62_0\boost/graph/detail/adjacency_list.hpp(1767) : 請參閱所要編譯的函式 樣板 具現化 'void boost::put<boost::adj_list_vertex_property_map<Graph,ValueType,Reference,Tag>,Reference,Key,Value>(const boost::put_get_helper<Reference,LvaluePropertyMap> &,K,const V &)' 的參考
-                 with
-                 [
-                     Graph=Graph,
-                     ValueType=unsigned int,
-                     Reference=unsigned int &,
-                     Tag=boost::vertex_index_t,
-                     Key=void *,
-                     Value=boost::undirected_graph<>::vertex_index_type,
-                     LvaluePropertyMap=boost::adj_list_vertex_property_map<Graph,unsigned int,unsigned int &,boost::vertex_index_t>,
-                     K=void *,
-                     V=boost::undirected_graph<>::vertex_index_type
-                 ]
-                 C:\Program Files\boost\boost_1_62_0\boost/graph/undirected_graph.hpp(148) : 請參閱所要編譯的函式 樣板 具現化 'void boost::put<Config,Base,boost::vertex_index_t,void*,boost::undirected_graph<>::vertex_index_type>(Property,boost::adj_list_helper<Config,Base> &,const Key &,const Value &)' 的參考
-                 with
-                 [
-                     Config=boost::detail::adj_list_gen<boost::adjacency_list<boost::listS,boost::listS,boost::undirectedS,boost::property<boost::vertex_index_t,unsigned int,boost::no_property>,boost::property<boost::edge_index_t,unsigned int,boost::no_property>,boost::no_property,boost::listS>,boost::listS,boost::listS,boost::undirectedS,boost::property<boost::vertex_index_t,unsigned int,boost::no_property>,boost::property<boost::edge_index_t,unsigned int,boost::no_property>,boost::no_property,boost::listS>::config,
-                     Base=boost::undirected_graph_helper<boost::detail::adj_list_gen<boost::adjacency_list<boost::listS,boost::listS,boost::undirectedS,boost::property<boost::vertex_index_t,unsigned int,boost::no_property>,boost::property<boost::edge_index_t,unsigned int,boost::no_property>,boost::no_property,boost::listS>,boost::listS,boost::listS,boost::undirectedS,boost::property<boost::vertex_index_t,unsigned int,boost::no_property>,boost::property<boost::edge_index_t,unsigned int,boost::no_property>,boost::no_property,boost::listS>::config>,
-                     Property=boost::vertex_index_t,
-                     Key=void *,
-                     Value=boost::undirected_graph<>::vertex_index_type
-                 ]
-                 C:\Program Files\boost\boost_1_62_0\boost/graph/undirected_graph.hpp(147) : 編譯類別 樣板 成員函式 'void *boost::undirected_graph<>::make_index(void *)' 時
-                 C:\Program Files\boost\boost_1_62_0\boost/graph/undirected_graph.hpp(155) : 請參閱所要編譯的函式 樣板 具現化 'void *boost::undirected_graph<>::make_index(void *)' 的參考
-                 main.cpp(96) : 請參閱所要編譯的類別 樣板 具現化 'boost::undirected_graph<>' 的參考
        Link:
          F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\food_setting\colorImageSegmentation\x64\Release\colorImageSegmentation.exe" /NOLOGO opencv_core247.lib opencv_imgproc247.lib opencv_highgui247.lib opencv_ml247.lib opencv_video247.lib opencv_features2d247.lib opencv_calib3d247.lib opencv_objdetect247.lib opencv_contrib247.lib opencv_legacy247.lib opencv_flann247.lib opencv_nonfree247.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\food_setting\colorImageSegmentation\x64\Release\colorImageSegmentation.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\food_setting\colorImageSegmentation\x64\Release\colorImageSegmentation.lib" /MACHINE:X64 x64\Release\main.obj
          正在產生程式碼
@@ -48,4 +14,4 @@
 
 建置成功。
 
-經過時間 00:00:05.38
+經過時間 00:00:04.72
