@@ -72,6 +72,10 @@
     <IncludePath>$(PATH);$(IncludePath)</IncludePath>
     <LibraryPath>$(PATH);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(PATH);$(IncludePath)</IncludePath>
+    <LibraryPath>$(PATH);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -90,6 +94,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_core247d.lib;opencv_imgproc247d.lib;opencv_highgui247d.lib;opencv_ml247d.lib;opencv_video247d.lib;opencv_features2d247d.lib;opencv_calib3d247d.lib;opencv_objdetect247d.lib;opencv_contrib247d.lib;opencv_legacy247d.lib;opencv_flann247d.lib;opencv_nonfree247d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
